@@ -1,45 +1,40 @@
-# UFood
+# vue-starter
 
-:hamburger:
+Kit de départ préconfiguré utilisant [vue-cli](https://cli.vuejs.org/), [ESLint](https://eslint.org/) avec [Prettier](https://prettier.io/) et [Jest](https://jestjs.io/).
 
-## Travail
+## Prérequis
+- Git [Windows](http://www.git-scm.com/book/en/Getting-Started-Installing-Git#Installing-on-Windows), [Mac](http://www.git-scm.com/book/en/Getting-Started-Installing-Git#Installing-on-Mac), [Linux](http://www.git-scm.com/book/en/Getting-Started-Installing-Git#Installing-on-Linux)
+- [Node.js](https://nodejs.org/en/) (version LTS recommandée)
 
-### Énoncé
+Vérifier que Node est installé avec la commande:
+```bash
+node -v
+```
+Vérifier que Node est installé avec la commande:
+```bash
+npm -v
+```
 
-Voir l'énoncé du travail [sur cette page](https://github.com/GLO3102/UFood/blob/master/Enonce.md).
+## Installation
 
-L'API UFood est disponible sur [https://ufoodapi.herokuapp.com](https://ufoodapi.herokuapp.com/).
-
-### Documentation
-
-Voir la documentation dans le [wiki](https://github.com/GLO3102/UFood/wiki/API).
-
-### Grille de correction
-
-Consultez la grille de correction [ici](https://docs.google.com/spreadsheets/d/1f8q3h0EkpzgBfxSREqfRtWaZHuL6Vt6w-bjiZ_dUGC4/edit?usp=sharing).
+```bash
+# install dependencies
+npm install
+```
 
 ## Développement
+```bash
+# serve with hot reload at localhost:8080
+npm run serve
+```
 
-### Starter pack
+## Livrable 1
+Faites vos modifications aux fichiers `Home.vue`, `Navigation.vue`, `Restaurant.vue` et `User.vue`. Ajoutez votre HTML dans la balise `<template>` et votre CSS dans la balise `<style>` de chacun des components. Vous pouvez également modifier la structure de fichiers si vous désirez.
 
-Utiliser le [starter pack](https://github.com/GLO3102/vue-starter) pour votre projet.
+## Livrable 2-3
+Libre à vous de modifier la structure des fichiers.
 
-### GitHub
 
-Notez que l'enseignant fournit les dépôts GitHub pour le cours. Vous recevrez des instructions lors de la première semaine.
-
-### Exécuter UFood localement
-
-Voir la documentation dans le [wiki](https://github.com/GLO3102/UFood/wiki/Installation-locale-UFood).
-
-### Extensions VSCode pratiques
-
-[Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
-
-[ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-### Avant d'envoyer un mail de panique :
-
-Si l'API est _down_ : nous avons déja été notifié. Nous tenterons de garder l'API _up_ le plus possible. En cas de problème persistent, contactez l'enseignant par courriel.
+## Notes
+### ESLint
+ESLint est configuré afin de respecter un certain standard de code à travers votre équipe. Il est basé sur la configuration de Prettier. qui rassemble les règles de base populaires. Libre à vous de modifier cette configuration via `.eslintrc.js`.
